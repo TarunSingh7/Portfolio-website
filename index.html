@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio website</title>
+    <!-- custom css likh -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- --------------start Nav bar --------------->
+    <nav>
+      <div class="container nav-container">
+        <a href="" class="logo"
+          ><h3>Tarun <span>Singh</span></h3></a
+        >
+
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#InternshipExperience">Work Experience</a></li>
+          <!-- Modified this line -->
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Certifications">Certifications</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li>
+            <button class="sun" style="display: none">
+              <i class="fa fa-sun"></i>
+            </button>
+
+            <button class="moon"><i class="fa fa-moon"></i></button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-----------------end Nav bar------------------>
+    <!-- start phone menu bar---------------- -->
+    <div class="phone-menu">
+      <a href="#" class="active"><i class="fa fa-home"></i></a>
+      <a href="#About"><i class="fa fa-user"></i></a>
+      <a href="#InternshipExperience"><i class="fa fa-user"></i></a>
+      <!-- Modified this line -->
+      <a href="#Skills"><i class="fa fa-box"></i></a>
+      <a href="#Portfolio"><i class="fa fa-windows"></i></a>
+      <a href="#Certifications"><i class="fa fa-medal"></i></a>
+      <a href="#Contact"><i class="fa fa-message"></i></a>
+    </div>
+
+    <!-- ---------------------end phone menu bar----- -->
+    <!-----------------start Header section  bar------------------>
+    <header>
+      <div class="container header-container">
+        <div class="header-social">
+          <a href="https://web.whatsapp.com/"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href="www.linkedin.com/in/tarun-singh-8b4918233"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="header-description">
+          <h1><span class="typedText">Web Developers...</span></h1>
+          <h4>Hello,It's me Tarun..</h4>
+          <p>
+            In this digital space, I invite you to explore my journey, skills,
+            and projects as I embark on my career in technology. I'm excited
+            about the endless possibilities in the world of computer science,
+            and I'm eager to contribute my skills to your team.
+          </p>
+          <a href="" download="./images/TarunResume.pdf" class="btn btn-primary"
+            >Download resume</a
+          >
+        </div>
+        <div class="header-image">
+          <div class="image-bg">
+            <div></div>
+          </div>
+          <div class="hero-image">
+            <img src="images/IMG_20210926_182711_776-modified.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -----------------end of header section --------------->
+    <!-- ---------------------start about section----------- -->
+    <section id="About">
+      <h2>About Me</h2>
+      <div class="container about-container">
+        <div class="about-left">
+          <img src="./images/IMG_0290.jpg" alt="" />
+        </div>
+        <div class="about-right">
+          <h4>I'am Tarun Singh</h4>
+          <p>
+            a Computer Science and Engineering student at IMS Engineering
+            College, Ghaziabad.I have a deep understanding of programming
+            languages, algorithms, data structures, and other essential concepts
+            in computer science. Alongside my core knowledge, I am also
+            proficient in web development with HTML and CSS, and I'm currently
+            expanding my skills by learning JavaScript.
+            <br />
+            <br />
+            I'm passionate about technology, quick to learn, and eager to
+            explore the latest tech trends. Let's connect to explore the
+            exciting possibilities in tech together.
+
+            <br />
+          </p>
+
+          <a href="" class="btn btn-primary">Contact me</a>
+        </div>
+      </div>
+    </section>
+    <!--=--------------------- end of about section----------------- -->
+
+    <!-- ----------------------start of Internship Experience section-------- -->
+    <!-- ----------------------start of Internship Experience section-------- -->
+    <section id="InternshipExperience">
+      <!-- Added id attribute -->
+      <h2>Internship Experience</h2>
+      <div class="container internship-container">
+        <div class="internship">
+          <div class="internship-details">
+            <h4>
+              Teaching Assistant in Coding Ninjas
+              <br />
+              <!-- Add this line for spacing -->
+            </h4>
+            <p>
+              "As a Teaching Assistant at Coding Ninjas, I played a crucial role
+              in facilitating the learning journey of aspiring programmers. My
+              responsibilities involved providing personalized assistance to
+              learners, addressing their doubts, and guiding them through
+              challenging Java and data structure problems. This experience not
+              only honed my expertise in these fundamental concepts but also
+              enhanced my ability to effectively communicate complex ideas to
+              students, fostering a supportive and conducive learning
+              environment."
+            </p>
+            <br />
+            <p>Duration: [June/2023] - [September/2023]</p>
+            <p>Location: [Hybrid, India]</p>
+            <br />
+            <br />
+          </div>
+        </div>
+        <!-- Add more internship entries as needed -->
+
+        <!-- Certificate Images -->
+        <div class="certificate-images">
+          <div class="certificate-image">
+            <!-- Centering the image -->
+            <img
+              src="./images/TAship certificate_page.jpg"
+              alt="Certificate Image"
+              class="open-on-double-click"
+            />
+          </div>
+          <div class="certificate-image">
+            <!-- Centering the image -->
+            <img
+              src="./images/Ta ship journey.jpg"
+              alt="Second Certificate Image"
+              class="open-on-double-click"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------end of Internship Experience section-------- -->
+
+    <!-- -----------------start skill section-------------- -->
+    <section id="Skills">
+      <h2>Skills</h2>
+      <div class="container Skills-container">
+        <div class="skills-left">
+          <div class="progress">
+            <div class="info">
+              <h5>Html</h5>
+              <h5>90%</h5>
+            </div>
+            <div class="out-row">
+              <div class="inner-row"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="info">
+              <h5>Css</h5>
+              <h5>70%</h5>
+            </div>
+            <div class="out-row">
+              <div class="inner-row"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="info">
+              <h5>Javascript</h5>
+              <h5>40%</h5>
+            </div>
+            <div class="out-row">
+              <div class="inner-row"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="info">
+              <h5>Java</h5>
+              <h5>80%</h5>
+            </div>
+            <div class="out-row">
+              <div class="inner-row"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="info">
+              <h5>Data structure</h5>
+              <h5>60%</h5>
+            </div>
+            <div class="out-row">
+              <div class="inner-row"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-right">
+          <img src="./images/skill.gif" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--------------------------end of skill section----------------- -->
+
+    <!--------------------------start portfolio section------------------ ------------ -->
+    <section id="Portfolio">
+      <h2>Portfolio</h2>
+      <div class="container portfolio-container">
+        <div class="tabs">
+          <div class="tab btn-sm btn active" data-name="All">All</div>
+          <div class="tab btn-sm btn" data-name="mini-project">
+            mini-project
+          </div>
+          <div class="tab btn-sm btn" data-name="websites">websites</div>
+          <div class="tab btn-sm btn" data-name="major-project">
+            major-project
+          </div>
+        </div>
+        <div class="projects">
+          <div class="project" data-name="websites">
+            <img src="./images/portofilo image.jpg" alt="" />
+            <h4>Portfolio website</h4>
+            <p>
+              It's a digital canvas where I highlight my abilities and projects,
+              aimed at giving potential employers a glimpse into what I bring to
+              the table.
+            </p>
+            <div class="project-action">
+              <a href="" class="btn btn-sm">Demo</a>
+              <a href="" class="btn btn-sm btn-primary">Github</a>
+            </div>
+          </div>
+          <div class="project" data-name="mini-project">
+            <img src="./images/itunes.webp" alt="" />
+            <h4>Itunes clone webpage</h4>
+            <p>
+              this is a interface page of itunes website. it is done by
+              html,css,JavaScript
+            </p>
+            <div class="project-action">
+              <a href="" class="btn btn-sm">Demo</a>
+              <a href="" class="btn btn-sm btn-primary">Github</a>
+            </div>
+          </div>
+          <div class="project" data-name="websites">
+            <img src="./images/chair.png" alt="" />
+            <h4>Chair webpage</h4>
+            <p>
+              it is a dynamic webpage that shows different colour and background
+              of chairs. html,css is used in it.
+            </p>
+            <div class="project-action">
+              <a href="" class="btn btn-sm">Demo</a>
+              <a href="" class="btn btn-sm btn-primary">Github</a>
+            </div>
+          </div>
+          <div class="project" data-name="major-project">
+            <img src="./images/razorpayimage.jpg" alt="" />
+            <h4>Razorpay Clone</h4>
+            <p>
+              it is interface clone of Razorpay website. which is done by using
+              html,css,JavaScript and TailWind.
+            </p>
+            <div class="project-action">
+              <a href="" class="btn btn-sm">Demo</a>
+              <a href="" class="btn btn-sm btn-primary">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------start certificate section ---------------------------------------->
+
+    <section id="Certifications">
+      <h2>Certificates</h2>
+      <div class="container certificate-container">
+        <div class="certificate">
+          <div class="certificates" data-name="websites">
+            <img src="./images/p1.jpg" alt="" />
+            <h4>Introduction to JAVA By Coding Ninjas</h4>
+
+            <div class="certificate-action">
+              <a
+                href="https://certificate.codingninjas.com/view/826a08160d0da00c"
+                class="btn btn-sm btn-primary"
+                >Verify</a
+              >
+            </div>
+          </div>
+          <div class="certificates" data-name="mini-project">
+            <img src="./images/p2.jpg" alt="" />
+            <h4>Data structures in JAVA By Coding Ninjas</h4>
+
+            <div class="certificate-action">
+              <a
+                href="https://certificate.codingninjas.com/view/62d8bb295f2d8bbc"
+                class="btn btn-sm btn-primary"
+                >Verify</a
+              >
+            </div>
+          </div>
+          <div class="certificates" data-name="websites">
+            <img src="./images/p3.jpg" alt="" />
+            <h4>Programming for Everybody By Coursera</h4>
+
+            <div class="certificate-action">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/UV3SJVWNSESJ"
+                class="btn btn-sm btn-primary"
+                >Verify</a
+              >
+            </div>
+          </div>
+          <div class="certificates" data-name="major-project">
+            <img src="./images/p4.jpg" alt="" />
+            <h4>Java(Basic)</h4>
+
+            <div class="certificate-action">
+              <a
+                href="https://www.hackerrank.com/certificates/b6894d036900"
+                class="btn btn-sm btn-primary"
+                >Verify</a
+              >
+            </div>
+          </div>
+          <div class="certificates" data-name="major-project">
+            <img src="./images/p5.jpg" alt="" />
+            <h4>Sql(Basic)</h4>
+
+            <div class="certificate-action">
+              <a
+                href="https://www.hackerrank.com/certificates/16aff392f6d3"
+                class="btn btn-sm btn-primary"
+                >Verify</a
+              >
+            </div>
+          </div>
+          <div class="certificates" data-name="major-project">
+            <img src="./images/p6 (2).jpg" alt="" />
+            <h4>Introduction to Cybersecurity by Cisco</h4>
+
+            <div class="certificate-action">
+              <a
+                href="https://www.credly.com/badges/33018b48-daf5-41f8-b6cd-b790815a59ff/public_url"
+                class="btn btn-sm btn-primary"
+                >Verify</a
+              >
+            </div>
+          </div>
+          <div class="certificates" data-name="major-project">
+            <img src="./images/p7.jpg" alt="" />
+            <h4>Cybersecurity Essential by Cisco</h4>
+
+            <div class="certificate-action">
+              <a
+                href="https://www.credly.com/badges/125c1f68-3ec5-459f-815a-b39dc3e341ee/public_url"
+                class="btn btn-sm btn-primary"
+                >Verify</a
+              >
+            </div>
+          </div>
+          <!-- Add more rows as needed -->
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------end of certificate section-------- -->
+    <!-- ----------------------start of contact section-------- -->
+    <section id="Contact">
+      <h2>Get in touch</h2>
+      <div class="container contact-container">
+        <div class="contact-ex">
+          <a href="mailto:"><i class="fa fa-message"></i></a>
+          <a href=""><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <form action="">
+          <input type="text" required placeholder="Your Name:" />
+          <input type="email" required placeholder="Your Email:" />
+          <input type="number" required placeholder="Your number:" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="4"
+            required
+            placeholder="Your Message"
+          ></textarea>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- ----------------------end of contact section-------- -->
+    <!-- ----------------------start of footer section-------- -->
+    <footer>
+      <div class="container footer-container">
+        <p>&copy;Copyright Bye The Gulia.softtech || All Right Reserved</p>
+      </div>
+    </footer>
+    <!-- ----------------------end of footer section-------- -->
+
+    <!-- -------------start typed js Links ------------------------------->
+    <script src="./typed.js-main/dist/typed.umd.js"></script>
+    <!-- ...........custom js link--------------------- -->
+    <script src="./script.js"></script>
+  </body>
+</html>
