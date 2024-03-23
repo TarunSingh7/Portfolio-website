@@ -1,3 +1,1 @@
-this is portfolio website of tarun singh.
-this is used to made up for to showcase the skills.
-tech uses-html,css,javascript
+"Elevate your online presence with a sleek and dynamic portfolio website! Crafted with cutting-edge HTML, CSS, and JavaScript, this platform showcases your skills, projects, and achievements in style. From eye-catching design elements to seamless navigation, impress visitors and potential clients with your professional portfolio. Stand out from the crowd and let your work speak for itself on this polished digital showcase."
