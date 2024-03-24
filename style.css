@@ -620,7 +620,6 @@ footer{
         .header-image{
             grid-row:1;
 
-
         }
         
         .projects{
@@ -652,26 +651,28 @@ footer{
             font-size: 17px;
         }
         nav{
-            height: 4.5rem;
+            height: 5rem;
+        }
+        .nav-container h3{
+            font-size: 25px;
         }
         .phone-menu{
             gap: 2.2rem;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding:0 5%;
-            height: 4.5rem;
+            padding:0 4%;
+            height: 3rem;
 
-            
         }
         .nav-links li button{
             position: absolute;
-
             right: 5%;
             top:0;
             margin-top: 1.2rem;
         }
         .header-image{
             padding-top: 5rem;
+            
         }
         .image-bg{
             height: 18rem;
@@ -684,15 +685,41 @@ footer{
         .header-container p{
             font-size: 17px;
             width: 100%;
+            
+        }
+    
+
+        .about-container img{
+            
+            margin: 0 19%;
+            width: 90%;
+            
         }
         .about-container{
+            margin: 1% 0%;
             grid-template-columns: 1fr;
-            text-align: center;
+            text-align: justify;
+            
+            gap: 2rem;
+            
         }
-        .about-container img{
-            margin: 0 auto;
+        .internship-container{
+
+            text-align: center;
+            
+            width: 85%;
+
+        }
+        .internship-container p{
+            font-size: 17px;
+        }
+
+        .certificate-images{
+            margin:  0% auto;
             width: 90%;
         }
+        
+       
         .Skills-container{
             grid-template-columns: 1fr;
 
@@ -702,9 +729,12 @@ footer{
         }
         .certificate{
             grid-template-columns: 1fr;
+            margin: 0% auto;
+            width: 90%;
         }
         .projects{
             grid-template-columns: 1fr;
+            margin: 0% auto;
             width: 90%;
             
         }
@@ -716,6 +746,7 @@ footer{
         .contact-ex{
             flex-direction: row;
             justify-content: center;
+            
         }
     }
 
